@@ -1,0 +1,62 @@
+Pengguna:
+
+1. Home
+ - slider
+ - informasi (konsen di bidang lingkungan dan )
+ - 5 artikel terbaru
+ - reviewer [photo & nama]
+
+2. About US
+ 2.1 About Ideto
+	- profil ideto dan sejarah
+ 2.2 Penata Laksana
+	- Kontak
+	- Dewan Editorial
+	- Reviewer
+ 2.3 Kebijakan
+	- Fokus dan Ruang Lingkup
+	- Kebijakan Bagian
+	- Proses Peer Review
+	- Frekuensi Penerbitan
+	- Kebijakan Akses Terbuka
+	- Pengarsipan
+	- Publication Ethics
+ 2.4 Penyerahan
+	- Penyerahan Online
+	- Petunjuk Penulis
+	- Pemberitahuan Hak Cipta
+	- Pernyataan Privasi
+	- Biaya Penulis
+ 2.5 Lain-lain
+	- Sponsor Jurnal
+	- Visi dan Tujuan Jurnal
+	- Peta Situs
+	- Tentang Sistem Penerbtian
+
+3. Artikel
+ - list artikel
+ - detail artikel
+
+4. Arsip
+ - list tahun dan volume
+ - list artikel di tahun dan volume yang dipilih
+ - detail artikel
+
+5. Informasi
+ - list informasi
+ - detail informasi
+
+6. Login
+ - login or daftar
+
+7. Pencarian
+ - by penulis | Judul | Sari | Indeks | Teks Lengkap | Semua
+
+
+
+Halaman Login Pengguna:
+1. Jurnal Saya
+ - list jurnal
+ - buat jurnal
+	* list kategori jurnal -> lihat jurnal | terbitan terkini | daftar
+2. Akun Saya

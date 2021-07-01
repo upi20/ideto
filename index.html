@@ -38,58 +38,6 @@
   <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#6f42c1">
   <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
-  <style>
-    .scroll {
-      color: #fff;
-      margin-top: 100px
-    }
-
-    #toTopBtn {
-      position: fixed;
-      bottom: 26px;
-      right: 39px;
-      z-index: 98;
-      padding: 25px;
-      background-color: hsla(261, 51%, 51%, 1);
-    }
-
-    .js .cd-top--fade-out {
-      opacity: .5
-    }
-
-    .js .cd-top--is-visible {
-      visibility: visible;
-      opacity: 1
-    }
-
-    .js .cd-top {
-      visibility: hidden;
-      opacity: 0;
-      transition: opacity .3s, visibility .3s, background-color .3s
-    }
-
-    .cd-top {
-      border-radius: 20px;
-      position: fixed;
-      bottom: 20px;
-      bottom: var(--cd-back-to-top-margin);
-      right: 20px;
-      right: var(--cd-back-to-top-margin);
-      display: inline-block;
-      height: 40px;
-      height: var(--cd-back-to-top-size);
-      width: 40px;
-      width: var(--cd-back-to-top-size);
-      box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
-      background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
-      background-color: hsla(261, 51%, 51%, 1);
-      background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
-    }
-
-    .height {
-      height: 3000px
-    }
-  </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -117,64 +65,50 @@
 
 
     <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
-
       <div class="container">
         <div class="row align-items-center">
-
           <div class="col-6 col-xl-2">
             <div class="mb-0 site-logo"><a href="index.html" class="mb-0">IDETO<span class="text-primary">.co.id</span>
               </a>
             </div>
           </div>
-
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html" class="nav-link active1">Home</a></li>
                 <li class="has-children">
-                  <a href="prevention.html" class="nav-link">About Us</a>
+                  <a href="#" class="nav-link">About Us</a>
                   <ul class="dropdown">
-                    <li><a href="#" class="nav-link">About Ideto</a></li>
-                    <li><a href="#" class="nav-link">Penata Laksana</a></li>
-                    <li><a href="#" class="nav-link">Kebijakan</a></li>
-                    <li><a href="#" class="nav-link">Penyerahan</a></li>
-                    <li><a href="#" class="nav-link">Lain-lain</a></li>
+                    <li><a href="./about-ideto.html" class="nav-link">About Ideto</a></li>
+                    <li><a href="./penata-laksana.html" class="nav-link">Penata Laksana</a></li>
+                    <li><a href="./kebijakan.html" class="nav-link">Kebijakan</a></li>
+                    <li><a href="./penyerahan.html" class="nav-link">Penyerahan</a></li>
+                    <li><a href="./lain-lain.html" class="nav-link">Lain-lain</a></li>
                   </ul>
                 </li>
-                <li><a href="symptoms.html" class="nav-link">Artikel</a></li>
-                <li><a href="about.html" class="nav-link">Informasi</a></li>
-                <li><a href="contact.html" class="nav-link">Pencarian</a></li>
-                <li><a href="blog.html" class="nav-link">Login</a></li>
+                <li><a href="./artikel.html" class="nav-link">Artikel</a></li>
+                <li><a href="./informasi.html" class="nav-link">Informasi</a></li>
+                <li><a href="./pencarian.html" class="nav-link">Pencarian</a></li>
+                <li><a href="./login.html" class="nav-link">Login</a></li>
               </ul>
             </nav>
           </div>
-
-
           <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
               class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a>
           </div>
-
         </div>
       </div>
-
     </header>
-
-
-
     <div class="hero-v1">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 mr-auto text-center text-lg-left">
+          <div class="col-lg-6 mr-auto text-center text-lg-left mb-5">
             <h1 class="heading mb-3">Ikatlah ilmu<br>dengan tulisan</h1>
             <p class="mb-5"> "Semua orang akan mati kecuali karyanya, maka tulislah sesuatu yang akan membahagiakan
               dirimu di akhirat kelak". - Ali bin Abi Thalib</p>
-            <p class="mb-4"><a href="#" class="btn btn-primary">Menulis Sekarang</a></p>
-
-
-
+            <p class="mb-4"><a href="#" class="btn btn-primary mb-5">Menulis Sekarang</a></p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <figure class="illustration">
               <img src="./assets/images/student.png" alt="Image" class="img-fluid">
             </figure>
@@ -184,10 +118,9 @@
       </div>
     </div>
 
-
     <!-- MAIN -->
     <!-- Informasi  -->
-    <div class="site-section stats">
+    <div class="site-section mb-0">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
@@ -239,45 +172,23 @@
       </div>
     </div>
 
-    <!-- Review -->
-    <div class="row">
-      <div class="col-lg-5">
-        <div class="site-section">
-          <div class="container">
-            <div class="row mb-3">
-              <div class="col-lg-7 text-center mx-auto">
-                <h2 class="section-heading">Review</h2>
-              </div>
-            </div>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active pt-5">
+    <!-- review -->
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading">Review</h2>
+          </div>
+        </div>
+        <div class="row mx-auto my-auto">
+          <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100  pt-5" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-lg-4 col-md-6">
                   <div class="testimonial text-center">
                     <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
                     <blockquote>
-                      <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
-                        qui
-                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                      <cite class="author">Elizabeth Anderson, Senior</cite>
-                    </blockquote>
-                  </div>
-                </div>
-                <div class="carousel-item  pt-5">
-                  <div class="testimonial text-center">
-                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
-                    <blockquote>
-                      <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
-                        qui
-                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                      <cite class="author">Elizabeth Anderson, Senior</cite>
-                    </blockquote>
-                  </div>
-                </div>
-                <div class="carousel-item  pt-5">
-                  <div class="testimonial text-center">
-                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
-                    <blockquote>
-                      <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                      <p class="quote">1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
                         qui
                         iure animi maxime consequuntur aliquid sed tempore, amet!</p>
                       <cite class="author">Elizabeth Anderson, Senior</cite>
@@ -285,437 +196,268 @@
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="site-section">
-          <div class="container">
-            <div class="row mb-3">
-              <div class="col-lg-7 text-center mx-auto">
-                <h2 class="section-heading">Artikel Terbaru</h2>
+              <div class="carousel-item">
+                <div class="col-lg-4 col-md-6">
+                  <div class="testimonial text-center">
+                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
+                    <blockquote>
+                      <p class="quote">2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                        qui
+                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+                      <cite class="author">Elizabeth Anderson, Senior</cite>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 col-md-6">
+                  <div class="testimonial text-center">
+                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
+                    <blockquote>
+                      <p class="quote">3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                        qui
+                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+                      <cite class="author">Elizabeth Anderson, Senior</cite>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 col-md-6">
+                  <div class="testimonial text-center">
+                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
+                    <blockquote>
+                      <p class="quote">4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                        qui
+                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+                      <cite class="author">Elizabeth Anderson, Senior</cite>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 col-md-6">
+                  <div class="testimonial text-center">
+                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
+                    <blockquote>
+                      <p class="quote">5Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                        qui
+                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+                      <cite class="author">Elizabeth Anderson, Senior</cite>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 col-md-6">
+                  <div class="testimonial text-center">
+                    <img src="./assets/images/person_1.jpg" alt="Image" class="img-fluid">
+                    <blockquote>
+                      <p class="quote">6Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil
+                        qui
+                        iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+                      <cite class="author">Elizabeth Anderson, Senior</cite>
+                    </blockquote>
+                  </div>
+                </div>
               </div>
             </div>
+            <a class="carousel-control-prev w-auto" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Artikel terbaru -->
     <div class="site-section">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <figure class="img-play-vid">
-              <img src="./assets/images/hero_1.jpg" alt="Image" class="img-fluid">
-              <div class="absolute-block d-flex">
-                <span class="text">Watch the Video</span>
-                <a href="https://www.youtube.com/watch?v=9pVy8sRC440" data-fancybox class="btn-play">
-                  <span class="icon-play"></span>
-                </a>
-              </div>
-            </figure>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h2 class="mb-4 section-heading">What is Coronavirus?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-            <ul class="list-check list-unstyled mb-5">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Consectetur adipisicing elit</li>
-              <li>Unde doloremque</li>
-            </ul>
-            <p><a href="#" class="btn btn-primary">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-protection"></span>
-            </div>
-            <div>
-              <h3>Protection</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-patient"></span>
-            </div>
-            <div>
-              <h3>Prevention</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-hand-sanitizer"></span>
-            </div>
-            <div>
-              <h3>Treatments</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-virus"></span>
-            </div>
-            <div>
-              <h3>Symptoms</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section bg-primary-light">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-6 col-lg-6 mt-lg-5">
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-stay-at-home"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Stay at home</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-patient"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-6">
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-social-distancing"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Keep social distancing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-hand-washing"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Wash your hands</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h2 class="section-heading mb-4">How to Prevent Coronavirus?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis doloribus consequatur fugit
-              voluptatum ex rerum perspiciatis cupiditate, esse hic!</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, error!</p>
-
-            <ul class="list-check list-unstyled mb-5">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Consectetur adipisicing elit</li>
-              <li>Unde doloremque</li>
-            </ul>
-
-            <p><a href="#" class="btn btn-primary">Read more about prevention</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-3">
           <div class="col-lg-7 mx-auto text-center">
-            <span class="subheading">What you need to do</span>
-            <h2 class="mb-4 section-heading">How To Protect Yourself</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+            <h2 class="section-heading">Artikel Terbaru</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 ">
-            <div class="row mt-5 pt-5">
-              <div class="col-lg-6 do ">
-                <h3>You should do</h3>
-                <ul class="list-unstyled check">
-                  <li>Stay at home</li>
-                  <li>Wear mask</li>
-                  <li>Use Sanitizer</li>
-                  <li>Disinfect your home</li>
-                  <li>Wash your hands</li>
-                  <li>Frequent self-isolation</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 dont ">
-                <h3>You should avoid</h3>
-                <ul class="list-unstyled cross">
-                  <li>Avoid infected people</li>
-                  <li>Avoid animals</li>
-                  <li>Avoid handshaking</li>
-                  <li>Aviod infected surfaces</li>
-                  <li>Don't touch your face</li>
-                  <li>Avoid droplets</li>
-                </ul>
+        <div class="row artikel-terbaru">
+          <div class="col-lg-6 mb-4">
+            <div class="symptom">
+              <div class="text">
+                <div class="d-flex justify-content-between w-100">
+                  <div class="d-flex flex-column mr-1">
+                    <h3>Rohmad salam, Agus Salim Afrozi</h3>
+                    <p class="mb-1">
+                      Pembuatan Bahan Shielding Radiasi Neutron Berbahan Serbuk Kayu dengan variaasi kandungan Boraks
+                    </p>
+                    <p class="font-weight-bold ml-3">DOI: 10.32493/jitk.v5i1.7008</p>
+                  </div>
+                  <div class="d-flex flex-column text-nowrap">
+                    <p>Pdf</p>
+                    <p>1-7</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img src="./assets/images/protect.png" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
 
 
-    <div class="site-section bg-primary-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">Symptoms of Coronavirus</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="./assets/images/symptom_high-fever.png" alt="Image" class="img-fluid">
-              </div>
+            <div class="symptom">
               <div class="text">
-                <h3>High Fever</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ipsum repellendus animi modi iure
-                  provident, cupiditate perferendis voluptatem!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="./assets/images/symptom_cough.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>Cough</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ullam illo laborum repellendus vel
-                  esse dolor, sunt exercitationem.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="./assets/images/symptom_sore-troath.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>Sore Troath</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum esse voluptatum, vel inventore at!
-                  Ullam, libero reiciendis amet?</p>
+                <div class="d-flex justify-content-between w-100">
+                  <div class="d-flex flex-column mr-1">
+                    <h3>Ulfi Rahayu</h3>
+                    <p class="mb-1">
+                      KINETIKA ADSORPSI ZAT WARNA DIRECT BROWN MENGGUNAKAN HIDROKSIAPATIT DENGAN VARIASI DOSIS ADSORBEN
+                      DAN PH LARUTAN
+                    </p>
+                    <p class="font-weight-bold ml-3">DOI: 10.32493/jitk.v5i1.7390</p>
+                  </div>
+                  <div class="d-flex flex-column text-nowrap">
+                    <p>Pdf</p>
+                    <p>8-19</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="./assets/images/symptom_headache.png" alt="Image" class="img-fluid">
-              </div>
+            <div class="symptom">
               <div class="text">
-                <h3>Headache</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem voluptatem ratione veniam
-                  rerum qui quibusdam reprehenderit quis.</p>
+                <div class="d-flex justify-content-between w-100">
+                  <div class="d-flex flex-column mr-1">
+                    <h3>DIDIK ISWADI</h3>
+                    <p class="mb-1">
+                      MODIFIKASI PEMBUATAN TAHU DENGAN PENGGUNAAN LAMA PERENDAMAN, LAMA PENGGILINGAN DAN PENGGUNAAN SUHU
+                      DALAM UPAYA MENINGKATKAN KUALITAS PRODUK TAHU </p>
+                    <p class="font-weight-bold ml-3">DOI: 10.32493/jitk.v5i1.7008</p>
+                  </div>
+                  <div class="d-flex flex-column text-nowrap">
+                    <p>Pdf</p>
+                    <p>31-45</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="row justify-content-md-center">
-          <div class="col-lg-10">
-            <div class="note row">
-
-              <div class="col-lg-8 mb-4 mb-lg-0"><strong>Stay at home and call your doctor:</strong> Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Accusantium, eaque.</div>
-              <div class="col-lg-4 text-lg-right">
-                <a href="#" class="btn btn-primary"><span class="icon-phone mr-2 mt-3"></span>Help line</a>
+          <div class="col-lg-6 mb-4">
+            <div class="symptom">
+              <div class="text">
+                <div class="d-flex justify-content-between w-100">
+                  <div class="d-flex flex-column mr-1">
+                    <h3>DIDIK ISWADI</h3>
+                    <p class="mb-1">
+                      MODIFIKASI PEMBUATAN TAHU DENGAN PENGGUNAAN LAMA PERENDAMAN, LAMA PENGGILINGAN DAN PENGGUNAAN SUHU
+                      DALAM UPAYA MENINGKATKAN KUALITAS PRODUK TAHU </p>
+                    <p class="font-weight-bold ml-3">DOI: 10.32493/jitk.v5i1.7008</p>
+                  </div>
+                  <div class="d-flex flex-column text-nowrap">
+                    <p>Pdf</p>
+                    <p>31-45</p>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+
+          <div class="col-lg-6 mb-4">
+            <div class="symptom">
+              <div class="text">
+                <div class="d-flex justify-content-between w-100">
+                  <div class="d-flex flex-column mr-1">
+                    <h3>DIDIK ISWADI</h3>
+                    <p class="mb-1">
+                      MODIFIKASI PEMBUATAN TAHU DENGAN PENGGUNAAN LAMA PERENDAMAN, LAMA PENGGILINGAN DAN PENGGUNAAN SUHU
+                      DALAM UPAYA MENINGKATKAN KUALITAS PRODUK TAHU </p>
+                    <p class="font-weight-bold ml-3">DOI: 10.32493/jitk.v5i1.7008</p>
+                  </div>
+                  <div class="d-flex flex-column text-nowrap">
+                    <p>Pdf</p>
+                    <p>31-45</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="site-footer  bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h2 class="footer-heading mb-4">About</h2>
+              <p>Jurnal Ilmiah Teknik Kimia Universitas Pamulang merupakan wadah bagi para dosen, peneliti maupun
+                mahasiswa
+                sebagai media publikasi penelitian ilmiah dalam bidang Teknik Kimia dan Kimia.</p>
+              <div class="my-5">
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-4">
+                  <h2 class="footer-heading mb-4">Quick Links</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Symptoms</a></li>
+                    <li><a href="#">Prevention</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About Coronavirus</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <h2 class="footer-heading mb-4">Helpful Link</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Helathcare Professional</a></li>
+                    <li><a href="#">LGU Facilities</a></li>
+                    <li><a href="#">Protect Your Family</a></li>
+                    <li><a href="#">World Health</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <h2 class="footer-heading mb-4">Resources</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#">WHO Website</a></li>
+                    <li><a href="#">CDC Website</a></li>
+                    <li><a href="#">Gov Website</a></li>
+                    <li><a href="#">DOH Website</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-12">
+              <div class="border-top pt-5">
+                <p class="copyright"><small>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                    IDETO.co.id
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </small></p>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
 
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">News &amp; Articles</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="./assets/images/hero_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="./assets/images/hero_2.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="./assets/images/hero_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="footer-heading mb-4">About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel
-              ipsa necessitatibus ducimus architecto fugiat!</p>
-            <div class="my-5">
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Symptoms</a></li>
-                  <li><a href="#">Prevention</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">About Coronavirus</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Helpful Link</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Helathcare Professional</a></li>
-                  <li><a href="#">LGU Facilities</a></li>
-                  <li><a href="#">Protect Your Family</a></li>
-                  <li><a href="#">World Health</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Resources</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">WHO Website</a></li>
-                  <li><a href="#">CDC Website</a></li>
-                  <li><a href="#">Gov Website</a></li>
-                  <li><a href="#">DOH Website</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p class="copyright"><small>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;
-                  <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-                  with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                    target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </small></p>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
   </div>
-
-  </div> <!-- .site-wrap -->
-
   <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/jquery-ui.js"></script>
   <script src="./assets/js/popper.min.js"></script>
@@ -730,25 +472,6 @@
 
 
   <script src="./assets/js/main.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('#toTopBtn').fadeOut();
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 20) {
-          $('#toTopBtn').fadeIn();
-        } else {
-          $('#toTopBtn').fadeOut();
-        }
-      });
-
-      $('#toTopBtn').click(function () {
-        $("html, body").animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    });
-  </script>
 
 </body>
 
